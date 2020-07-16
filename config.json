@@ -1,0 +1,54 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": null,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "randomx": {
+        "init": -1,
+        "mode": "auto",
+        "numa": true
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": false,
+        "asm": true,
+        "yield": true
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null
+    },
+    "donate-level": 5,
+    "donate-over-proxy": 1,
+    "log-file": null,
+    "pools": [
+        {
+            "coin": "monero",
+            "url": "xmrpool.eu:5555",
+            "user": "4A79fzPjWet5XbgrGUVxbMizofjR423Gs7fSa1LVDi6ofjChLYZ4w45bpGxUzXxJNqfFHsaDTQGSbYrBYYNFVVbuRSfUKan",
+            "pass": "x",
+            "rig-id": "test",
+            "keepalive": true,
+            "enabled": true
+        }
+    ],
+    "print-time": 1800,
+    "retries": 1,
+    "retry-pause": 5,
+    "syslog": false,
+    "user-agent": null,
+    "watch": true
+}
